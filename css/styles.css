@@ -1,0 +1,60 @@
+html {
+  background-color: #8A59FF;
+}
+
+
+.header {
+  text-align: center;
+  color: #FFCE4C;
+}
+.education {
+  color: #FF1F5B;
+  width: 300px;
+  display: inline-block;
+  margin: 40px;
+  background-color: #FFF359;
+  text-align: center;
+  }
+
+.work {
+  color: #FF1F5B;
+  width: 300px;
+  display: inline-block;
+  margin: 40px;
+  background-color: #FFF359;
+  text-align: center;
+}
+
+.skills {
+  color: #FF1F5B;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  margin: 40px;
+  background-color: #FFF359;
+}
+
+.skill-text {
+  font-style: italic;
+}
+
+
+.edu-image, .work-image, .skills-image {
+  width: 300px;
+  height: 300px;
+}
+
+.bottom {
+  margin-left: 200px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  body {display: block;}
+  .bottom {margin-left: 0px;}
+
+
+
+}
